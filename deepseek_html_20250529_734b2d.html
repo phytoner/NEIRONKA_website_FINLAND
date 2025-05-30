@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Красивые места Финляндии | Природа Севера</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <i class="fas fa-mountain-sun"></i>
+                    <span>Финляндия</span>
+                </a>
+                
+                <nav>
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active"><i class="fas fa-home"></i> Главная</a></li>
+                        <li><a href="#places"><i class="fas fa-map-marked-alt"></i> Места</a></li>
+                        <li><a href="#gallery"><i class="fas fa-images"></i> Галерея</a></li>
+                        <li><a href="#info"><i class="fas fa-lightbulb"></i> Инфо</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn" id="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Волшебная Природа Финляндии</h1>
+            <p>Откройте для себя захватывающие дух пейзажи, северное сияние и уникальную природу страны тысячи озер</p>
+            <a href="#places" class="btn">Исследовать <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Популярные места -->
+    <section id="places">
+        <div class="container">
+            <div class="section-title">
+                <h2>Удивительные места</h2>
+            </div>
+            <div class="places-grid">
+                <div class="place-card">
+                    <div class="place-img">
+                        <img src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Лапландия">
+                    </div>
+                    <div class="place-content">
+                        <h3>Лапландия</h3>
+                        <p>Земля северного сияния, оленей и Санта-Клауса. Идеальное место для зимних приключений и наблюдения за полярным сиянием.</p>
+                        <a href="#" class="btn">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="place-card">
+                    <div class="place-img">
+                        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Озерный край">
+                    </div>
+                    <div class="place-content">
+                        <h3>Озерный край</h3>
+                        <p>Финляндия - страна тысячи озер. Кристально чистые воды, острова и первозданная природа создают идеальные условия для отдыха.</p>
+                        <a href="#" class="btn">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="place-card">
+                    <div class="place-img">
+                        <img src="https://images.unsplash.com/photo-1532444447363-84ac8d0e1eac?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Архипелаг">
+                    </div>
+                    <div class="place-content">
+                        <h3>Архипелаг Турку</h3>
+                        <p>Крупнейший архипелаг в Европе с более чем 20,000 островов. Идеальное место для морских прогулок, рыбалки и наблюдения за птицами.</p>
+                        <a href="#" class="btn">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Фотогалерея</h2>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1542272201-b1ca555ef850?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Северное сияние">
+                    <div class="gallery-overlay">
+                        <h3>Северное сияние</h3>
+                        <p>Волшебное природное явление в небе Лапландии</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Зимний лес">
+                    <div class="gallery-overlay">
+                        <h3>Зимний лес</h3>
+                        <p>Сказочные пейзажи заснеженных финских лесов</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1500458459569-0c1b3c8b8b5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Озера">
+                    <div class="gallery-overlay">
+                        <h3>Тысяча озер</h3>
+                        <p>Кристально чистые воды и живописные берега</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Архитектура">
+                    <div class="gallery-overlay">
+                        <h3>Современная архитектура</h3>
+                        <p>Хельсинки сочетает историю и современный дизайн</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Информация -->
+    <section id="info" class="info-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Интересные факты</h2>
+            </div>
+            <div class="info-container">
+                <div class="info-card">
+                    <i class="fas fa-tree"></i>
+                    <h3>75%</h3>
+                    <p>Площадь страны покрыта лесами</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-tint"></i>
+                    <h3>188 000</h3>
+                    <p>Озер на территории Финляндии</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>24/7</h3>
+                    <p>Солнце светит летом в Лапландии</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-snowflake"></i>
+                    <h3>6 месяцев</h3>
+                    <p>Длится зима в северных регионах</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Упрощенный подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Красивые места Финляндии</h3>
+                    <p>Сайт создан для того, чтобы показать красоту и уникальность природы Финляндии</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Главная</a></li>
+                        <li><a href="#places"><i class="fas fa-chevron-right"></i> Места</a></li>
+                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Галерея</a></li>
+                        <li><a href="#info"><i class="fas fa-chevron-right"></i> Инфо</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Красивые места Финляндии. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
